@@ -1,0 +1,214 @@
+:root {
+    --night: #171614;
+    --feld: #627264;
+    --aqua: #b5fed9;
+    --royal: #745296;
+    --green: #5ede2b;
+
+}
+
+* {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: var(--night);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: var(--night);
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+h1 {
+    margin-left: 20px;
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 170%;
+}
+
+h3 {
+    font-size: 130%;
+}
+
+
+nav a {
+    color: var(--night);
+    text-decoration: none;
+    margin: 8px;
+}
+
+figure {
+    color: var(--royal);
+    text-align: justify;
+    max-width: 75%;
+    margin-top: 5%;
+    padding: 3%;
+}
+
+img {
+    flex: 1 0 200px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 35%;
+}
+
+main section {
+    margin-top: 5%;
+}
+
+footer {
+    color: var(--royal);
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.about-me figcaption {
+    padding: 0 15%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sidebar1 {
+    flex: 1 0;
+    float: left;
+    color: var(--green);
+    background-color: var(--dark);
+    padding: 20px;
+    max-width: 18%;
+    min-height: 200px;
+    text-align: end;
+    margin-top: 5%;
+    border-right: solid 1px var(--aqua);
+}
+
+.sidebar2 {
+    display: inline;
+    float: left;
+    color: var(--green);
+    background-color: var(--dark);
+    padding: 20px;
+    max-width: 18%;
+    min-height: 600px;
+    text-align: end;
+    margin-top: 5%;
+    border-right: solid 1px var(--aqua);
+}
+
+.sidebar3 {
+
+    display: inline;
+    float: left;
+    color: var(--green);
+    background-color: var(--dark);
+    padding: 20px;
+    max-width: 18%;
+    min-height: 200px;
+    text-align: end;
+    margin-top: 5%;
+    border-right: solid 1px var(--aqua);
+}
+
+.card-main {
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+    flex: 1 0;
+    color: var(--night);
+    min-width: 30%;
+    max-width: 50%;
+    min-height: 250px;
+    max-height: 350px;
+    text-align: center;
+    border: solid 10px var(--royal);
+    border-radius: 10%;
+    margin: 5%;
+    background-image: url(../images/Horiseon-demo.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.click {
+    text-decoration: none;
+    color: var(--night);
+    background-color: var(--green);
+    width: fit-content;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1 0 200px;
+    color: var(--green);
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+    min-height: 200px;
+    max-height: 200px;
+    text-align: center;
+    background-image: url(../images/coming-soon.jpg);
+    background-position: center;
+    background-size: contain;
+    border: solid 10px var(--royal);
+    border-radius: 20%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    display: block;
+    color: var(--royal);
+    max-width: 80%;
+    margin-top: 5%;
+    padding: 3%;
+    font-size: large;
+}
+
+@media screen and (max-width: 992px) {
+    .row {
+        display: block;
+    }
+    .card-main {
+        margin-left: 30%;
+    }
+    .card {
+        margin-left: 40%;
+    }
+    .sidebar2 {
+        min-height: 1100px;
+    }
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+  }
