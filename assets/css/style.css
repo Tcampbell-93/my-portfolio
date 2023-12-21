@@ -206,7 +206,6 @@ footer {
     .sidebar2 {
         min-height: 1100px;
     }
-
   }
   
 @media screen and (max-width: 768px) {
@@ -217,3 +216,24 @@ footer {
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .sidebar1 {
+        border-right: none;
+    }
+    .sidebar2 {
+        border-right: none;
+    }
+    .sidebar3 {
+        border-right: none;
+    }
+    .card-main {
+        margin-left: 35%;
+    }
+    .info {
+        margin-top: 15%;
+    }
+    .click:hover {
+        display: none;
+    }
+  }
