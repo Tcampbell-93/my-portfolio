@@ -209,6 +209,11 @@ footer {
 
   }
   
-  @media screen and (max-width: 768px) {
-    
-  }
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
+    img {
+        justify-content: center;
+    }
+}
