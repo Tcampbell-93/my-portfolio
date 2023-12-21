@@ -1,4 +1,4 @@
-:root {
+:root {               /* color scheme */
     --night: #171614;
     --feld: #627264;
     --aqua: #b5fed9;
@@ -7,7 +7,7 @@
 
 }
 
-* {
+* {           /* font for entire page */
     font-size: 1em;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -42,7 +42,7 @@ h3 {
 }
 
 
-nav a {
+nav a {                      /* nav bar */
     color: var(--night);
     text-decoration: none;
     margin: 8px;
@@ -93,7 +93,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.sidebar1 {
+.sidebar1 {          /* Sidebars on the left side of the page */
     flex: 1 0;
     float: left;
     color: var(--green);
@@ -133,7 +133,7 @@ footer {
     border-right: solid 1px var(--aqua);
 }
 
-.card-main {
+.card-main {          /* horiseon project card */
     justify-content: center;
     display: flex; 
     flex-direction: column;
@@ -152,7 +152,7 @@ footer {
     background-size: cover;
 }
 
-.click {
+.click {                       /* thumbnail for horiseon card */
     text-decoration: none;
     color: var(--night);
     background-color: var(--green);
@@ -160,7 +160,7 @@ footer {
     text-align: center;
 }
 
-.card {
+.card {                     /* future projects */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -193,7 +193,7 @@ footer {
     font-size: large;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {         /* Readjusting size and spacing for different screens */
     .row {
         display: block;
     }
