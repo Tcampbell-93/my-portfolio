@@ -18,7 +18,7 @@ https://developer.mozilla.org/en-US/
 
 ## How to view my project
 
-Click this link 
+Click this link https://tcampbell-93.github.io/my-portfolio/
 
 Here is a screenshot of the project.
-<src=./assets/images/portfolio.png>
+![Alt text](assets/images/portfolio.png)
